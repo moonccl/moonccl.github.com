@@ -3,7 +3,23 @@
     <head>
         <meta charset="utf-8" />
 
+		<script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+			tex2jax: {
+				skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+				inlineMath: [['$','$']]
+			}
+		  });
+		</script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+
         <script type="text/javascript">
+            (function() {
+              var hm = document.createElement("script");
+              hm.src = "//hm.baidu.com/hm.js?dcee78e565eeaedc76defba5d096b344";
+              var s = document.getElementsByTagName("script")[0];
+              s.parentNode.insertBefore(hm, s);
+            })();
 
             var _gaq = _gaq || [];
             _gaq.push(['_setAccount', 'UA-38205696-1']);
@@ -19,7 +35,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <link rel="shortcut icon" href="http://lonny.online/img//owl.ico" />
-        <link rel="stylesheet" type="text/css" href="http://lonny.online/css/default.min.css" />
+        <link rel="stylesheet" type="text/css" href="http://localhost:4000/css/default.min.css" />
     </head>
 
     <body>
@@ -36,7 +52,7 @@
         
         
         <div id="mobile-nav">
-            <a href="http://zhangwenli.com" onclick="_gaq.push(['_trackEvent', 'ToHome', 'InNavMobile', window.location.pathname]);">Home</a><a href="http://lonny.online" onclick="_gaq.push(['_trackEvent', 'ToBlog', 'InNavMobile', window.location.pathname]);">Blog</a>
+            <a href="http://zhangwenli.com" onclick="_gaq.push(['_trackEvent', 'ToHome', 'InNavMobile', window.location.pathname]);">Home</a><a href="http://localhost:4000" onclick="_gaq.push(['_trackEvent', 'ToBlog', 'InNavMobile', window.location.pathname]);">Blog</a>
         </div>
         <div class="contentDiv">
 
@@ -48,7 +64,7 @@
 <div class="container page">
     <div class="simpleNav">
         <a href="http://zhangwenli.com/#ovilia-home" class="pageDiv" onclick="_gaq.push(['_trackEvent', 'ToHome', 'InNav', window.location.pathname]);">Home</a>
-        <a href="http://lonny.online" class="pageDiv" onclick="_gaq.push(['_trackEvent', 'ToHome', 'InNav', window.location.pathname]);">Blog</a>
+        <a href="http://localhost:4000" class="pageDiv" onclick="_gaq.push(['_trackEvent', 'ToHome', 'InNav', window.location.pathname]);">Blog</a>
     </div>
 
     
@@ -142,7 +158,7 @@
 
 <h3 id="2014-08-15">2014-08-15</h3>
 
-<p>New color scheme for the site. Check blog post <a href="http://lonny.online/2014/08/15/new-color-scheme-for-my-blog/" target="_blank" onclick="_gaq.push(['_trackEvent', 'ToBlog', 'InLog', 'http://lonny.online/2014/08/15/new-color-scheme-for-my-blog/']);">New Color Scheme for My Blog</a> for contrast. <a href="https://github.com/Ovilia/blog/tree/0f797604671496965ba4eb578eae49dca9497eda" target="_blank" onclick="_gaq.push(['_trackEvent', 'ToGitHub', 'InLog', 'blog']);">(View History)</a></p>
+<p>New color scheme for the site. Check blog post <a href="http://localhost:4000/2014/08/15/new-color-scheme-for-my-blog/" target="_blank" onclick="_gaq.push(['_trackEvent', 'ToBlog', 'InLog', 'http://localhost:4000/2014/08/15/new-color-scheme-for-my-blog/']);">New Color Scheme for My Blog</a> for contrast. <a href="https://github.com/Ovilia/blog/tree/0f797604671496965ba4eb578eae49dca9497eda" target="_blank" onclick="_gaq.push(['_trackEvent', 'ToGitHub', 'InLog', 'blog']);">(View History)</a></p>
 
 <h3 id="2014-08-28">2014-08-28</h3>
 
@@ -166,7 +182,7 @@
 
 <h3 id="2014-11-12">2014-11-12</h3>
 
-<p>You may &lt;a href=”http://lonny.online/tip” target=_blank”&gt;tip me&lt;/a&gt; now!</p>
+<p>You may &lt;a href=”http://localhost:4000/tip” target=_blank”&gt;tip me&lt;/a&gt; now!</p>
 
 <h1 id="2015">2015</h1>
 
@@ -205,17 +221,17 @@
 
             <div id="footer-nav">
                 | <a href="#">Top</a> |
-                <a href="http://lonny.online">Blog</a> |
-                <a href="http://zhangwenli.com/#ovilia-home">About Me</a> |
+                <a href="http://localhost:4000">Blog</a> |
+                <a href="http://lonny.online/">About Me</a> |
                 <a href="mailto:me@zhangwenli.com" target="_blank">Email</a> |
-                <a href="http://lonny.online/feed.xml">RSS</a> |
-                <a href="http://lonny.online/meta">More</a> |
+                <a href="http://localhost:4000/feed.xml">RSS</a> |
+                <a href="http://localhost:4000/meta">More</a> |
             </div>
 
             <div id="footer-follow">
                 <a class="footer-follow-element footer-follow-twitter" href="https://twitter.com/OviliaZhang" target="_blank" title="Follow me on Twitter" onclick="_gaq.push(['_trackEvent', 'Follow', 'Twitter', 'Footer']);"></a>
                 <a class="footer-follow-element footer-follow-google" href="https://plus.google.com/u/0/112802684720065263732?rel=author" target="_blank" title="Follow me on Google Plus" onclick="_gaq.push(['_trackEvent', 'Follow', 'GPlus', 'Footer']);"></a>
-                <a class="footer-follow-element footer-follow-github" href="https://github.com/Ovilia" target="_blank" title="Follow me on GitHub" onclick="_gaq.push(['_trackEvent', 'Follow', 'GitHub', 'Footer']);"></a>
+                <a class="footer-follow-element footer-follow-github" href="https://github.com/BlasphemyAngels" target="_blank" title="Follow me on GitHub" onclick="_gaq.push(['_trackEvent', 'Follow', 'GitHub', 'Footer']);"></a>
                 <a class="footer-follow-element footer-follow-so" href="http://stackoverflow.com/users/760314/ovilia" target="_blank" title="Follow me on StackOverflow" onclick="_gaq.push(['_trackEvent', 'Follow', 'StackOverflow', 'Footer']);"></a>
                 <a class="footer-follow-element footer-follow-linkedin" href="http://www.linkedin.com/profile/view?id=148742016" target="_blank" title="Follow me on LinkedIn" onclick="_gaq.push(['_trackEvent', 'Follow', 'LinkedIn', 'Footer']);"></a>
                 <a class="footer-follow-element footer-follow-dribbble" href="https://dribbble.com/wenli" target="_blank" title="Follow me on Dribbble" onclick="_gaq.push(['_trackEvent', 'Follow', 'Dribbble', 'Footer']);"></a>
@@ -237,8 +253,8 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <script type="text/javascript" src="http://lonny.online/js/lazyLoad.js"></script>
-        <script type="text/javascript" src="http://lonny.online/js/common.js"></script>
+        <script type="text/javascript" src="http://localhost:4000/js/lazyLoad.js"></script>
+        <script type="text/javascript" src="http://localhost:4000/js/common.js"></script>
     </body>
 </html>
 

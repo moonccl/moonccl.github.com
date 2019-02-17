@@ -3,8 +3,8 @@
     <channel>
         <title>Lonny's Blogs</title>
         <description>Doing is better than saying.</description>
-        <link>http://lonny.online</link>
-        <atom:link href="http://lonny.online/feed-cn.xml" rel="self" type="application/rss+xml" />
+        <link>http://localhost:4000</link>
+        <atom:link href="http://localhost:4000/feed-cn.xml" rel="self" type="application/rss+xml" />
         
             
             
@@ -122,8 +122,8 @@
 
 </description>
                 <pubDate>Wed, 20 Sep 2017 00:00:00 +0800</pubDate>
-                <link>http://lonny.online/2017/09/20/reviewing-the-effective-executive/</link>
-                <guid isPermaLink="true">http://lonny.online/2017/09/20/reviewing-the-effective-executive/</guid>
+                <link>http://localhost:4000/2017/09/20/reviewing-the-effective-executive/</link>
+                <guid isPermaLink="true">http://localhost:4000/2017/09/20/reviewing-the-effective-executive/</guid>
             </item>
             
             
@@ -135,12 +135,12 @@
             
             <item>
                 <title>卡通渲染（上）</title>
-                <description>&lt;p&gt;&lt;a href=&quot;http://lonny.online/2017/02/24/what-is-a-shader/&quot;&gt;上一篇博客&lt;/a&gt;介绍了什么是着色器，以及着色器能实现的一些效果。在这一篇博客中，我将通过&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E5%8D%A1%E9%80%9A%E6%B8%B2%E6%9F%93&quot;&gt;卡通渲染&lt;/a&gt;的例子，介绍如何写一个非常简单的着色器。在本文结束的时候，我们将能够实现一种将画面中的颜色分为若干颜色层次的卡通渲染效果。&lt;/p&gt;
+                <description>&lt;p&gt;&lt;a href=&quot;http://localhost:4000/2017/02/24/what-is-a-shader/&quot;&gt;上一篇博客&lt;/a&gt;介绍了什么是着色器，以及着色器能实现的一些效果。在这一篇博客中，我将通过&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E5%8D%A1%E9%80%9A%E6%B8%B2%E6%9F%93&quot;&gt;卡通渲染&lt;/a&gt;的例子，介绍如何写一个非常简单的着色器。在本文结束的时候，我们将能够实现一种将画面中的颜色分为若干颜色层次的卡通渲染效果。&lt;/p&gt;
 
 &lt;p&gt;这一系列教程的源代码可以在 GitHub 的 &lt;a href=&quot;https://github.com/Ovilia/cezanne&quot; onclick=&quot;_gaq.push(['_trackEvent', 'ToGitHub', window.location.pathname, 'cezanne1']);&quot;&gt;Ovilia/cezanne&lt;/a&gt; 项目访问到，欢迎关注项目。&lt;/p&gt;
 
 &lt;figure&gt;
-    &lt;img src=&quot;http://lonny.online/img/loading.gif&quot; data-src=&quot;http://lonny.online/img/post/2017-03-05-cartoon-shading-1-result.png&quot; alt=&quot;&quot; /&gt;
+    &lt;img src=&quot;http://lonny.online/img/loading.gif&quot; data-src=&quot;http://localhost:4000/img/post/2017-03-05-cartoon-shading-1-result.png&quot; alt=&quot;&quot; /&gt;
     &lt;figcaption&gt;本文实现的卡通渲染效果&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -220,17 +220,17 @@
 &lt;p&gt;这里，我们就要祭出我画的这个神图了——&lt;/p&gt;
 
 &lt;figure&gt;
-    &lt;img src=&quot;http://lonny.online/img/loading.gif&quot; data-src=&quot;http://lonny.online/img/post/2015-08-28-opengl-matrix-transformations-02.png&quot; alt=&quot;&quot; /&gt;
+    &lt;img src=&quot;http://lonny.online/img/loading.gif&quot; data-src=&quot;http://localhost:4000/img/post/2015-08-28-opengl-matrix-transformations-02.png&quot; alt=&quot;&quot; /&gt;
     &lt;figcaption&gt;OpenGL 中的矩阵变换示意图&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;想详细了解的读者，请参见我之前写的博文&lt;a href=&quot;http://lonny.online/2015/08/28/opengl-matrix-transformations/&quot;&gt;《这次，彻底搞懂 OpenGL 矩阵转换》&lt;/a&gt;。&lt;/p&gt;
+  &lt;p&gt;想详细了解的读者，请参见我之前写的博文&lt;a href=&quot;http://localhost:4000/2015/08/28/opengl-matrix-transformations/&quot;&gt;《这次，彻底搞懂 OpenGL 矩阵转换》&lt;/a&gt;。&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;本文将不对矩阵变换的细节详细展开，你只需要知道这个公式：&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&quot;single-img&quot; src=&quot;http://lonny.online/img/loading.gif&quot; data-src=&quot;http://lonny.online/img/post/2017-03-05-cartoon-shading-1-matrix.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;single-img&quot; src=&quot;http://lonny.online/img/loading.gif&quot; data-src=&quot;http://localhost:4000/img/post/2017-03-05-cartoon-shading-1-matrix.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;其中，中间的三项有个非常霸气的名字：&lt;strong&gt;MVP 矩阵&lt;/strong&gt;！&lt;/p&gt;
 
@@ -447,7 +447,7 @@
 &lt;p&gt;渲染结果如下：&lt;/p&gt;
 
 &lt;figure&gt;
-    &lt;img src=&quot;http://lonny.online/img/loading.gif&quot; data-src=&quot;http://lonny.online/img/post/2017-03-05-cartoon-shading-1-result.png&quot; alt=&quot;&quot; /&gt;
+    &lt;img src=&quot;http://lonny.online/img/loading.gif&quot; data-src=&quot;http://localhost:4000/img/post/2017-03-05-cartoon-shading-1-result.png&quot; alt=&quot;&quot; /&gt;
     &lt;figcaption&gt;卡通渲染效果&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -476,8 +476,8 @@
 &lt;/ul&gt;
 </description>
                 <pubDate>Sun, 05 Mar 2017 00:00:00 +0800</pubDate>
-                <link>http://lonny.online/2017/03/05/cartoon-shading-1/</link>
-                <guid isPermaLink="true">http://lonny.online/2017/03/05/cartoon-shading-1/</guid>
+                <link>http://localhost:4000/2017/03/05/cartoon-shading-1/</link>
+                <guid isPermaLink="true">http://localhost:4000/2017/03/05/cartoon-shading-1/</guid>
             </item>
             
             

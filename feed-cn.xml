@@ -13,7 +13,7 @@
             
             <item>
                 <title>《卓有成效的管理者》读书笔记</title>
-                <description>&lt;p&gt;&lt;a href=&quot;https://book.douban.com/subject/1322025/&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;book-img&quot; src=&quot;http://lonny.online/img/loading.gif&quot; data-src=&quot;https://img3.doubanio.com/lpic/s1441092.jpg&quot; /&gt;&lt;/a&gt;某天闹书荒，就从老公那儿随便拿了本他刚买的书读。本来也就本着随便翻翻的态度，书名《卓有成效的管理者》让我觉得离我挺远的。我读书一般会翻翻前言和序，如果没意思就跳过去读正文。这本书的推荐序就有点夸张了，跳过去以后，五分之一的书就算读完了……这不禁让我怀疑这是本坑钱的成功学书籍。&lt;/p&gt;
+                <description>&lt;p&gt;&lt;a href=&quot;https://book.douban.com/subject/1322025/&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;book-img&quot; src=&quot;http://moonccl.github.io/img/loading.gif&quot; data-src=&quot;https://img3.doubanio.com/lpic/s1441092.jpg&quot; /&gt;&lt;/a&gt;某天闹书荒，就从老公那儿随便拿了本他刚买的书读。本来也就本着随便翻翻的态度，书名《卓有成效的管理者》让我觉得离我挺远的。我读书一般会翻翻前言和序，如果没意思就跳过去读正文。这本书的推荐序就有点夸张了，跳过去以后，五分之一的书就算读完了……这不禁让我怀疑这是本坑钱的成功学书籍。&lt;/p&gt;
 
 &lt;p&gt;但是里面的很多观点其实也挺让现阶段的我有所启发的，而且这本书挺适合速读的——跳过例子、只看段首论点、感兴趣的地方再细读。大概花了一两个小时读完，居然觉得这是一本值得整理论点的书（对于我还挺难得的），所以就打算写下这篇读书笔记。&lt;/p&gt;
 
@@ -140,7 +140,7 @@
 &lt;p&gt;这一系列教程的源代码可以在 GitHub 的 &lt;a href=&quot;https://github.com/Ovilia/cezanne&quot; onclick=&quot;_gaq.push(['_trackEvent', 'ToGitHub', window.location.pathname, 'cezanne1']);&quot;&gt;Ovilia/cezanne&lt;/a&gt; 项目访问到，欢迎关注项目。&lt;/p&gt;
 
 &lt;figure&gt;
-    &lt;img src=&quot;http://lonny.online/img/loading.gif&quot; data-src=&quot;http://lonny.online/img/post/2017-03-05-cartoon-shading-1-result.png&quot; alt=&quot;&quot; /&gt;
+    &lt;img src=&quot;http://moonccl.github.io/img/loading.gif&quot; data-src=&quot;http://lonny.online/img/post/2017-03-05-cartoon-shading-1-result.png&quot; alt=&quot;&quot; /&gt;
     &lt;figcaption&gt;本文实现的卡通渲染效果&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -220,7 +220,7 @@
 &lt;p&gt;这里，我们就要祭出我画的这个神图了——&lt;/p&gt;
 
 &lt;figure&gt;
-    &lt;img src=&quot;http://lonny.online/img/loading.gif&quot; data-src=&quot;http://lonny.online/img/post/2015-08-28-opengl-matrix-transformations-02.png&quot; alt=&quot;&quot; /&gt;
+    &lt;img src=&quot;http://moonccl.github.io/img/loading.gif&quot; data-src=&quot;http://lonny.online/img/post/2015-08-28-opengl-matrix-transformations-02.png&quot; alt=&quot;&quot; /&gt;
     &lt;figcaption&gt;OpenGL 中的矩阵变换示意图&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -230,7 +230,7 @@
 
 &lt;p&gt;本文将不对矩阵变换的细节详细展开，你只需要知道这个公式：&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&quot;single-img&quot; src=&quot;http://lonny.online/img/loading.gif&quot; data-src=&quot;http://lonny.online/img/post/2017-03-05-cartoon-shading-1-matrix.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;single-img&quot; src=&quot;http://moonccl.github.io/img/loading.gif&quot; data-src=&quot;http://lonny.online/img/post/2017-03-05-cartoon-shading-1-matrix.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;其中，中间的三项有个非常霸气的名字：&lt;strong&gt;MVP 矩阵&lt;/strong&gt;！&lt;/p&gt;
 
@@ -447,7 +447,7 @@
 &lt;p&gt;渲染结果如下：&lt;/p&gt;
 
 &lt;figure&gt;
-    &lt;img src=&quot;http://lonny.online/img/loading.gif&quot; data-src=&quot;http://lonny.online/img/post/2017-03-05-cartoon-shading-1-result.png&quot; alt=&quot;&quot; /&gt;
+    &lt;img src=&quot;http://moonccl.github.io/img/loading.gif&quot; data-src=&quot;http://lonny.online/img/post/2017-03-05-cartoon-shading-1-result.png&quot; alt=&quot;&quot; /&gt;
     &lt;figcaption&gt;卡通渲染效果&lt;/figcaption&gt;
 &lt;/figure&gt;
 
